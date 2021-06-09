@@ -4,6 +4,7 @@
             <div class="col-sm-6">
                 <ValidationObserver ref="observer" v-slot="{ invalid }">
                 <form v-on:submit.prevent="submit">
+                    <!-- 
                     <div class="form-group row">
                         <label for="name" class="col-sm-3 col-form-label">name</label>
                         <ValidationProvider 
@@ -15,6 +16,7 @@
                             <div class="text-danger">{{ errors[0] }}</div>
                         </ValidationProvider>
                     </div>
+                    -->
 
                     <div class="form-group row">
                         <label for="title" class="col-sm-3 col-form-label">Title</label>
