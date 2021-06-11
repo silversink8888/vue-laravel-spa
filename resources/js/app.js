@@ -15,6 +15,25 @@ require('./bootstrap');
 
 window.Vue = require('vue').default;
 
+/* vue-axios-interceptors */
+require('vue-axios-interceptors');
+window.axios = require('axios');
+
+/*
+
+axios.interceptors.request.use(request => {
+    console.log(request.url)
+    return request
+})
+
+axios.interceptors.response.use(response => {
+    console.log(response.url)
+    return response
+})
+*/
+/* axios.interceptors */
+
+
 Vue.use(VueRouter);
 
 const router = new VueRouter({

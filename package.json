@@ -27,6 +27,7 @@
     "dependencies": {
         "buefy": "^0.9.7",
         "vee-validate": "^3.4.9",
+        "vue-axios-interceptors": "^0.3.2",
         "vue-router": "^3.5.1"
     }
 }
